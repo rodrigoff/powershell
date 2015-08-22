@@ -2,11 +2,11 @@
 
 ## IIS
 
-###### CreateSite.ps1
-###### CreateApplication.ps1
+- [CreateSite.ps1] (/iis/CreateSite.ps1)
+- [CreateApplication.ps1] (/iis/CreateApplication.ps1)
 
 ## SQL Server
 
-###### CreateDatabase.ps1
-###### BackupDatabase.ps1
-###### RestoreBackup.ps1
+- [CreateDatabase.ps1] (/sqlserver/CreateDatabase.ps1)
+- [BackupDatabase.ps1] (/sqlserver/BackupDatabase.ps1)
+- [RestoreBackup.ps1] (/sqlserver/Restorebackup.ps1)
