@@ -9,3 +9,4 @@
 
 ###### CreateDatabase.ps1
 ###### BackupDatabase.ps1
+###### RestoreBackup.ps1
