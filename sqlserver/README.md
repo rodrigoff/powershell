@@ -12,6 +12,9 @@ Usage: CreateDatabase.ps1
 ```
 Powershell script to backup a SQL Server database.
 Usage: BackupDatabase.ps1
+  -ServerName [ServerName]
+  -DatabaseName [DatabaseName]
+  -BackupPath [BackupPath]
 ```
 
 ---
