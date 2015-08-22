@@ -2,7 +2,7 @@
 
 #### CreateSite.ps1
 ```
-Powershell script to create a local website and application pool.
+Powershell script to create a new website and application pool.
 Usage: CreateSite.ps1
   -SiteName [SiteName]
   -ApplicationPoolName [ApplicationPoolName]
