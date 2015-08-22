@@ -21,6 +21,9 @@ Usage: BackupDatabase.ps1
 
 #### RestoreBackup.ps1
 ```
-Powershell script to restore a SQL Server backup.
+Powershell script to restore a SQL Server database.
 Usage: RestoreBackup.ps1
+  -ServerName [ServerName]
+  -DatabaseName [DatabaseName]
+  -BackupPath [BackupPath]
 ```
