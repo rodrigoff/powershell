@@ -2,7 +2,7 @@
 ## Usage: CreateApplication.ps1
 ##   -SiteName [SiteName]
 ##   -ApplicationPoolName [ApplicationPoolName]
-##   -ApplicationName [Port]
+##   -ApplicationName [ApplicationName]
 ##   -Path [Path]
 
 param(

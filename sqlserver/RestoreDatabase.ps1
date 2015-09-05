@@ -1,5 +1,5 @@
 ## Intro: Powershell script to restore a SQL Server database.
-## Usage: BackupDatabase.ps1
+## Usage: RestoreDatabase.ps1
 ##   -ServerName [ServerName]
 ##   -DatabaseName [DatabaseName]
 ##   -BackupPath [BackupPath]
