@@ -2,7 +2,7 @@
 
 #### CreateDatabase.ps1
 ```
-Powershell script to create a new SQL Server database.
+Script to create a new SQL Server database.
 Usage: CreateDatabase.ps1
 ```
 
@@ -10,7 +10,7 @@ Usage: CreateDatabase.ps1
 
 #### BackupDatabase.ps1
 ```
-Powershell script to backup a SQL Server database.
+Script to backup a SQL Server database.
 Usage: BackupDatabase.ps1
   -ServerName [ServerName]
   -DatabaseName [DatabaseName]
@@ -21,7 +21,7 @@ Usage: BackupDatabase.ps1
 
 #### RestoreBackup.ps1
 ```
-Powershell script to restore a SQL Server database.
+Script to restore a SQL Server database.
 Usage: RestoreBackup.ps1
   -ServerName [ServerName]
   -DatabaseName [DatabaseName]

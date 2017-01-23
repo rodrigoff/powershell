@@ -2,7 +2,7 @@
 
 #### CreateSite.ps1
 ```
-Powershell script to create a new website and application pool.
+Script to create a new website and application pool.
 Usage: CreateSite.ps1
   -SiteName [SiteName]
   -ApplicationPoolName [ApplicationPoolName]
@@ -16,7 +16,7 @@ Usage: CreateSite.ps1
 
 #### CreateApplication.ps1
 ```
-Powershell script to create a new application in a site.
+Script to create a new application in a site.
 Usage: CreateApplication.ps1
   -SiteName [SiteName]
   -ApplicationPoolName [ApplicationPoolName]
@@ -26,5 +26,5 @@ Usage: CreateApplication.ps1
 
 #### IISExpressCleanup.ps1
 ```
-Powershell script to cleanup IIS Express configurations.
+Script to cleanup IIS Express configurations.
 ````
