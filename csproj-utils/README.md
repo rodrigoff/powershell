@@ -9,9 +9,9 @@ Usage: SortCsprojEntries.ps1
 
 ---
 
-#### StripCsprojDuplicates.ps1
+#### RemoveCsProjDuplicates.ps1
 ```
 Script to remove all compile and content duplicate entries in csproj files.
-Usage: StripCsProjDuplicates.ps1
+Usage: RemoveCsProjDuplicates.ps1
   -FilePath [FilePath]
 ```
