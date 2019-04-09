@@ -24,12 +24,12 @@ $projectFiles = Get-ChildItem -Path $filePath -Include *.csproj -Recurse `
  
 "> Found $($projectFiles.Count) project files"
  
-Foreach($projectFile in $projectFiles) {
+Foreach ($projectFile in $projectFiles) {
     $xml = [xml] (Get-Content $projectFile)
     
     Write-Host "> $projectFile " -Foreground Green
 
-    $entries = $xml.Project.ItemGroup.Compile + $xml.Project.ItemGroup.Content | Group-Object Include
+    $entries = $xml.Project.ItemGroup.Compile + $xml.Project.ItemGroup.Content + $xml.Project.ItemGroup.EmbeddedResource + $xml.Project.ItemGroup.Analyzer + $xml.Project.ItemGroup.ProjectReference | Group-Object Include
     $duplicateEntries = $entries | Where-Object Count -gt 1
 
     "- Found $($duplicateEntries.Count) duplicate entries"
@@ -50,4 +50,3 @@ Foreach($projectFile in $projectFiles) {
 
     "- Removed $($duplicateEntries.Count) duplicate entries"
 }
-
